@@ -1,0 +1,4 @@
+com/dogukanku/kafka/config/KafkaConfiguration.class
+com/dogukanku/kafka/model/User.class
+com/dogukanku/kafka/SpringBootKafkaConsumerExampleApplication.class
+com/dogukanku/kafka/listener/KafkaConsumer.class
