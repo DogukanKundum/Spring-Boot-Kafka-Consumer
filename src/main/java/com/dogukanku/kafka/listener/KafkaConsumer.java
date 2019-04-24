@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class KafkaConsumer {
 
     @KafkaListener(
-            topicPartitions = @TopicPartition(topic = "comsumer.events",
+            topicPartitions = @TopicPartition(topic = "consumer.events",
                     partitionOffsets = {
                             @PartitionOffset(partition = "0", initialOffset = "0")
                     }))
